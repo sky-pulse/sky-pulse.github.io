@@ -1,0 +1,28 @@
+title: SkyPulse
+email: bindsch@mpi-sws.org
+author: SkyPulse Project Team
+copyright: "Copyright © 2024 SkyPulse Project"
+description: >- 
+  Unlock the Potential of Satellite Data by Combining It With Any Other Data Source
+
+baseurl: ""
+url: "https://sky-pulse.github.io"
+
+# Theme settings
+remote_theme: "jeffreytse/jekyll-theme-yat@v1.10.0"
+
+# Pagination settings
+paginate: 5
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+  sourcemap: never
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
