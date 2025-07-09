@@ -8,21 +8,19 @@ description: >-
 baseurl: ""
 url: "https://sky-pulse.github.io"
 
-# Theme settings
-remote_theme: "jeffreytse/jekyll-theme-yat@v1.10.0"
-
-# Pagination settings
-paginate: 5
+# No theme - custom layout
 
 # Build settings
 markdown: kramdown
-sass:
-  style: compressed
-  sourcemap: never
 
+# Basic plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
